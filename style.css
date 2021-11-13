@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+}
+.blue{
+    background-color:aqua;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.pink{
+    background-color: pink;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.purple{
+    background-color: plum;
+    height: 50px;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 500px){
+    h1{
+        font-size: 20px;
+    }
+    .blue, .pink, .purple{
+        margin-bottom: 50px;
+    }
+}
